@@ -1,0 +1,15 @@
+.square,
+.square__toggled {
+	width: 50px;
+	height: 50px;
+	background: #d3d3d3;
+	border: 1px solid black;
+	display: grid;
+	position: relative;
+	z-index: 1;
+	transition: transform 0.5s ease;
+}
+
+.square__toggled {
+	transform: rotateY(90deg);
+}

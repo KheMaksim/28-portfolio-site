@@ -1,0 +1,26 @@
+.counter {
+	font-size: 24px;
+	width: 150px;
+	border-radius: 15px;
+	border: 1px solid white;
+	color: #fff;
+	margin-inline: auto;
+	margin-bottom: 20px;
+	padding: 15px;
+}
+
+.zone-green {
+	background: rgb(9, 161, 9);
+	color: #000;
+}
+.zone-yellow {
+	background: rgb(255, 221, 0);
+	color: #000;
+}
+.zone-orange {
+	background: rgb(255, 98, 0);
+	color: #000;
+}
+.zone-red {
+	background: rgb(151, 51, 51);
+}

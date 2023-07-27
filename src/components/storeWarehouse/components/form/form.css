@@ -1,0 +1,22 @@
+.form-container {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 20px;
+}
+.form {
+	width: 85%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.form-input {
+	width: 28%;
+	padding: 10px;
+	border-radius: 10px;
+}
+.form-button {
+	background: green;
+	color: #fff;
+	border-radius: 10px;
+	padding: 5px;
+}

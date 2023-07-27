@@ -1,0 +1,33 @@
+.game__modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.7);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 3;
+}
+
+.game__content {
+	max-width: 400px;
+	width: 100%;
+	min-height: 250px;
+	border-radius: 10px;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.game__modal-title {
+	font-size: 26px;
+	text-transform: uppercase;
+}
+.game__modal-subtitle {
+	font-size: 20px;
+	text-transform: uppercase;
+}

@@ -1,0 +1,20 @@
+.button {
+	border-radius: 25px;
+	display: flex;
+	align-self: center;
+	overflow: hidden;
+	border: 2px solid;
+	color: #00d5ff;
+	background: #212121;
+	font-family: "Tilt Prism", cursive;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: color 0.4s;
+	padding: 15px;
+}
+.button:hover {
+	font-weight: bold;
+	box-shadow: 0 0 10px 0 #08fbff inset, 0 0 10px 4px #08fbff;
+	color: #08fbff;
+	transition: 0.4s ease;
+}

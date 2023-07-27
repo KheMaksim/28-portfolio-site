@@ -1,0 +1,10 @@
+.countries__container {
+	max-width: 1000px;
+	width: 100%;
+	border-radius: 10px;
+	margin: 0 auto;
+	padding: 2rem;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+}

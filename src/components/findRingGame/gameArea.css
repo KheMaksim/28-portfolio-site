@@ -1,0 +1,22 @@
+.gamearea__container {
+	max-width: 1000px;
+	width: 100%;
+	border-radius: 10px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+.gamearea {
+	width: 390px;
+	height: 390px;
+	border: 1px solid white;
+	border-radius: 10px;
+	background: #212121;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(6, 1fr);
+	margin-inline: auto;
+	margin-bottom: 20px;
+	padding: 20px;
+}

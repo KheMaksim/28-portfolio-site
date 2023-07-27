@@ -1,0 +1,23 @@
+.table-title {
+	font-size: 26px;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	margin: 0;
+}
+
+.table-sort {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 10px;
+}
+
+.button-img {
+	width: 15px;
+	height: 15px;
+}

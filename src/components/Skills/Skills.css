@@ -1,0 +1,69 @@
+.skills {
+	min-height: 900px;
+	background: linear-gradient(#212121 45%, #d3d3d3 45%, #d3d3d3 100%);
+	color: #00d5ff;
+	font-family: "Orbitron", sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 32px;
+	padding-top: 130px;
+}
+
+.skills__info {
+	font-size: 36px;
+	font-weight: bold;
+}
+.skills__title {
+	display: inline-block;
+	font-size: 36px;
+	font-weight: bold;
+	letter-spacing: 9px;
+	border: 2px solid #00d5ff;
+	border-radius: 10px;
+	padding: 15px 40px;
+	position: relative;
+	animation: skills__title 2s linear infinite;
+}
+.skills__top {
+	height: 26px;
+	overflow: hidden;
+	position: relative;
+	top: -4px;
+}
+.skills__bot {
+	height: 18px;
+	overflow: hidden;
+	position: relative;
+	bottom: -4px;
+}
+.skills__bot-title {
+	top: -26px;
+	position: absolute;
+	left: 0;
+}
+.skills__subtitle {
+	padding: 16px 0;
+}
+
+@keyframes skills__title {
+	0% {
+		border-color: #00d5ff;
+	}
+	50% {
+		border-color: white;
+	}
+	100% {
+		border-color: #00d5ff;
+	}
+}
+
+.skills__cards {
+	width: 65%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 0 20px;
+	margin-inline: auto;
+}

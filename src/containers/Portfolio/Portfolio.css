@@ -1,0 +1,21 @@
+.storewarehouse__app,
+.player__app,
+.countries__app,
+.game__app {
+	background: linear-gradient(#212121 50%, #d3d3d3 50%);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 25px;
+}
+.countries__app,
+.game__app {
+	background: linear-gradient(#d3d3d3 50%, #212121 50%);
+}
+.app__name {
+	width: 40%;
+	font-size: 36px;
+	font-family: "Orbitron", sans-serif;
+	color: #00d5ff;
+	text-shadow: 2px 2px 8px #212121;
+}
